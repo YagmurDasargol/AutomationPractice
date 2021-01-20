@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="practiceglobals"
+    errors="1" failures="0" hostname="" id="" package="practiceglobals" skipped="0"
+    tests="1" time="0.003000" timestamp="">
+  
+    <testcase name="reporter" classname="practiceglobals" time="0.003000" assertions="0">
+    <error message="cb is not a function" type="error"><![CDATA[
+    TypeError: cb is not a function
+    at Object.reporter (C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\settings\defaults.js:57:38)
+    at Context.call (C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\testsuite\context.js:379:35)
+    at TestCase.run (C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\testsuite\testcase.js:53:31)
+    at Runnable.__runFn (C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\testsuite\index.js:376:80)
+    at Runnable.run (C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\testsuite\index.js:443:33)
+    at TestSuite.handleRunnable (C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\testsuite\index.js:448:18)
+    at C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\testsuite\index.js:376:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DefaultRunner.runTestSuite (C:\Users\ydasargol\desktop\learnAutomation\node_modules\nightwatch\lib\runner\test-runners\default.js:68:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: cb is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

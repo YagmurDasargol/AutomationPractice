@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="demo"
+    errors="1" failures="1" hostname="" id="" package="demo" skipped="0"
+    tests="1" time="10.49" timestamp="">
+  
+    <testcase name="Demo test Ecosia.org" classname="demo" time="10.49" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;mainline-results&gt; contains text &#39;Nightwatch.js&#39; in 5000ms - expected &#34;contains text &#39;Nightwatch.js&#39;&#34; but got: &#34;element could not be located&#34; (5372ms)">    at Object.Demo test Ecosia.org (C:\Users\ydasargol\Desktop\learnAutomation\tests\demo.js:11:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    
+    <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;mainline-results&gt;[0m contains text [0;33m&#39;Nightwatch.js&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Nightwatch.js&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5372ms)[0m" type="error"><![CDATA[
+        at Object.Demo test Ecosia.org (C:\Users\ydasargol\Desktop\learnAutomation\tests\demo.js:11:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .getText() command on &lt;mainline-results&gt;: 
+   {&#34;state&#34;:&#34;success&#34;,&#34;sessionId&#34;:null,&#34;class&#34;:&#34;org.openqa.selenium.remote.Response&#34;,&#34;value&#34;:[],&#34;status&#34;:0}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

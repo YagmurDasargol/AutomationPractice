@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="amazon_globals"
+    errors="0" failures="0" hostname="" id="" package="amazon_globals" skipped="0"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        TypeError: Cannot read property &#39;openAmazon&#39; of undefined
+       at Object.TestController.openAmazon [as 1- Opening Amazon page and Filtering Controls..] (C:\Users\ydasargol\Desktop\learnAutomation\tests\amazon.js:17:38)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
